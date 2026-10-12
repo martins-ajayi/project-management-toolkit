@@ -1,0 +1,55 @@
+{
+  "profile": "implementation",
+  "as_of_week": 24,
+  "max_age_weeks": 2,
+  "gates": [
+    {
+      "id": "uat",
+      "status": "fail",
+      "owner": "QA Lead",
+      "reviewer": "Business Owner",
+      "evidence": "",
+      "reviewed_week": null
+    },
+    {
+      "id": "data",
+      "status": "fail",
+      "owner": "Data Lead",
+      "reviewer": "Finance Controller",
+      "evidence": "",
+      "reviewed_week": null
+    },
+    {
+      "id": "security",
+      "status": "pass",
+      "owner": "Technical Lead",
+      "reviewer": "QA Lead",
+      "evidence": "SIM-P-ACCESS-W24",
+      "reviewed_week": 24
+    },
+    {
+      "id": "training",
+      "status": "pending",
+      "owner": "Change Lead",
+      "reviewer": "Business Owner",
+      "evidence": "",
+      "reviewed_week": null
+    },
+    {
+      "id": "operations",
+      "status": "pending",
+      "owner": "Operations Lead",
+      "reviewer": "Operations Lead",
+      "evidence": "",
+      "reviewed_week": null
+    },
+    {
+      "id": "sponsor",
+      "status": "pending",
+      "owner": "PM",
+      "reviewer": "Sponsor",
+      "evidence": "",
+      "reviewed_week": null
+    }
+  ]
+}
